@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Bridge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="language-selection" class="screen active">
+        <h1>Welcome to Ameersohiel's English classes</h1>
+        <p>Please select your language:</p>
+        <div class="language-buttons">
+            <button class="lang-btn" data-lang="kn">ಕನ್ನಡ</button>
+            <button class="lang-btn" data-lang="hi">हिन्दी</button>
+        </div>
+    </div>
+
+    <div id="learning-screen" class="screen">
+        <div class="card">
+            <img id="word-image" src="" alt="Word Image">
+            <h2 id="translated-word"></h2>
+            <h1 id="english-word"></h1>
+            <button id="listen-btn">
+                Listen 🔊
+            </button>
+        </div>
+        <button id="next-btn">Next Word ➡️</button>
+         <button id="change-lang-btn">Change Language</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
